@@ -26,7 +26,7 @@ public class game {
     }
 
     public void end(){
-        System.out.println("thanks for playing " + name);
+        System.out.println("Thanks for playing " + name);
     }
 
 }
