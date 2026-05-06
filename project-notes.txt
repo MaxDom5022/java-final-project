@@ -1,2 +1,4 @@
 Final Project Repository Setup complete
 
+First began project by creating the super class game.java
+First subclass will be creating the main menu
