@@ -4,3 +4,4 @@ First began project by creating the super class game.java
 Next, the main class will be created for the main menu
 Main menu completed with while loops and if else statements
 next Sub classes will be created for RPS and Guess the number
+Finished subclasses and tested program multiple times

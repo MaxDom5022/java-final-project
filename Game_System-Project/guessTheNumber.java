@@ -35,12 +35,12 @@ public class guessTheNumber extends game {
                 System.out.println("Your over the secret number! Try again");
 
             }else{
-                System.out.println("You Got it right!!! It took you " + attemps + "attempts!");
+                System.out.println("You Got it right!!! It took you " + attemps + " attempts!");
 
             }
 
         }
-        
+
         end();
 
     }
