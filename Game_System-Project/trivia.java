@@ -87,7 +87,7 @@ public class trivia extends game{
                     correct++;
 
                 }else{
-                    System.out.println("Incorrect. Correct Answer is" + correctAnswers[i]);
+                    System.out.println("Incorrect. Correct Answer is " + correctAnswers[i]);
                     incorrect++;
 
                 }
