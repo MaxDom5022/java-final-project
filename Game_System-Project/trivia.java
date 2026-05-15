@@ -18,12 +18,12 @@ public class trivia extends game{
     };
 
     // Answer Choices for each question
-    String[] choice1 = {"A. Andrew Jackson", "B. Abraham Lincoln", " C. George Washington"};
-    String[] choice2 = {"A. New York", "B. Washington D.C", " C. Virginia"};
-    String[] choice3 = {"A. 12", "B. 14", " C. 16"};
-    String[] choice4 = {"A. Prince", "B. Elvis Presley", " C. Michael Jackson"};
-    String[] choice5 = {"A. Tom Holland", "B. Andrew Garfield", " C. Toby Maguire"};
-    String[] choice6 = {"A. Prince George", "B. Richmond", " C. Colonial Heights"};
+    String[] choice1 = {"A. Andrew Jackson", "B. Abraham Lincoln", "C. George Washington"};
+    String[] choice2 = {"A. New York", "B. Washington D.C", "C. Virginia"};
+    String[] choice3 = {"A. 12", "B. 14", "C. 16"};
+    String[] choice4 = {"A. Prince", "B. Elvis Presley", "C. Michael Jackson"};
+    String[] choice5 = {"A. Tom Holland", "B. Andrew Garfield", "C. Toby Maguire"};
+    String[] choice6 = {"A. Prince George", "B. Richmond", "C. Colonial Heights"};
 
     //All Choices
     String[][] allChoices = {choice1, choice2, choice3, choice4, choice5, choice6};
