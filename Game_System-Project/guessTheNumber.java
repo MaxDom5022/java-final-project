@@ -25,18 +25,23 @@ public class guessTheNumber extends game {
 
         while (guess != hiddenNumber){
             System.out.println("Enter your guess: ");
-            guess = input.nextInt();
-            attemps++;
+            try {
+                guess = input.nextInt();
+                attemps++;
 
-            if (guess < hiddenNumber){
-                System.out.println("Your under the secret number! Try again");
+                if (guess < hiddenNumber){
+                    System.out.println("Your under the secret number! Try again");
 
-            }else if (guess > hiddenNumber){
-                System.out.println("Your over the secret number! Try again");
+                }else if (guess > hiddenNumber){
+                    System.out.println("Your over the secret number! Try again");
 
-            }else{
-                System.out.println("You Got it right!!! It took you " + attemps + " attempts!");
-
+                }else{
+                    System.out.println("You Got it right!!! It took you " + attemps + " attempts!");
+    
+                }
+            } catch (Exception e){
+                System.out.println("Invalid input. Please enter a number.");
+                input.nextLine();
             }
 
         }

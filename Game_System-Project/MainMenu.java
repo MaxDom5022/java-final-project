@@ -27,7 +27,16 @@ public class MainMenu {
             System.out.println("5. High Low Card Game");
             System.out.println("6. Quit");
 
-            choice = input.nextInt();
+            
+
+            try {
+                choice = input.nextInt();
+
+            } catch (Exception e) {
+                System.out.println("Invalid input. Please enter a number.");
+                input.nextLine();
+                choice = 0;
+            }
 
             //if statements
             if (choice == 1){
@@ -53,7 +62,11 @@ public class MainMenu {
             }else if (choice == 6){
                 System.out.println("Goodbye!!!");
 
-            }else System.out.println("Invalid Choice, please enter 1. 2. 3.");
+            }else{
+                System.out.println("Invalid Choice, please enter a number 1-6");
+                choice = 0;
+
+            } 
 
 
 

@@ -6,3 +6,5 @@ Main menu completed with while loops and if else statements
 next Sub classes will be created for RPS and Guess the number
 Finished subclasses and tested program multiple times
 Additional subclasses to be created for Trivia game, word scrable game, and high-low card game
+Once subclasses were finished, I proceeded to add try/catch blocks to the menu and first two programs from part one
+Finishing touches Added, now on to the README.md
