@@ -12,15 +12,16 @@ public class MainMenu {
         //Games (Objects)
         guessTheNumber guessGame = new guessTheNumber();
         rockPaperScissors rpsGame = new rockPaperScissors();
-
+        trivia triviaGame = new trivia();
         //while loop
-        while (choice != 3) {
+        while (choice != 4) {
             System.out.println("\n Welcome to the RBC Game Hub");
             System.out.println("----------------------------");
             System.out.println("Please Select a game you would like to play:");
             System.out.println("1. Guess the Number");
             System.out.println("2. Rock, Paper, Scissors");
-            System.out.println("3. Quit");
+            System.out.println("3. Trivia Game");
+            System.out.println("4. Quit");
 
             choice = input.nextInt();
 
@@ -32,8 +33,12 @@ public class MainMenu {
             }else if (choice == 2){
                 rpsGame.start();
                 rpsGame.play();
-
-            }else if (choice == 3){
+                
+            } else if (choice == 3) {
+                triviaGame.start();
+                triviaGame.play();
+            
+            }else if (choice == 4){
                 System.out.println("Goodbye!!!");
 
             }else System.out.println("Invalid Choice, please enter 1. 2. 3.");
